@@ -1,0 +1,32 @@
+.header {
+  margin-top: 20px;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_container :nth-child(1),
+.header_container :nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.header_button {
+  max-width: 300px;
+  padding: 4px 2px;
+  border: 2px solid #0075ff;
+  border-radius: 8px;
+
+  color: #0075ff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+.header_button:hover {
+  color: #fff;
+  background-color: #0075ff;
+
+  transition: background 0.7s, color 0.2s;
+}
